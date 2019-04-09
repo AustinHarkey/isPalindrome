@@ -1,0 +1,35 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.input {
+    padding: 10px;
+    font-size: 20px;
+    color: #888;
+}
+
+.submit {
+    background: rgb(7, 182, 109);
+    border: none;
+    padding: 11px 20px;
+    font-size: 20px;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    transition: all .1s ease-in-out;
+}
+
+.submit:hover {
+    cursor: pointer;
+
+}
+
+.submit:active {
+    background: rgb(8, 161, 98);
+}
+
+.output__header {
+    color: #cc0202;
+}
+
